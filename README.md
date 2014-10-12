@@ -1,5 +1,5 @@
 libpreload
 ==========
 
-simple 'LD_PRELOAD' dynamic library example.
-steal su and ssh passwords
+simple 'LD_PRELOAD' linux and osx rootkit examples.
+should be able to steal su and ssh passwords
